@@ -25,15 +25,6 @@
   <link rel="stylesheet" href="css/font-awesome.min.css"/>
 
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="application/javascript">
-			
-		$(document).ready(function(event) {
-			$("#services-link").click(function(event) {
-				window.location=$("#services-link").attr("href");
-			});
-		});
-
-  </script>
 
   <!-- Google Fonts -->
 
@@ -115,7 +106,7 @@
 
             </li>
             <li class="dropdown">
-              <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services<i
+              <a id="services-link" href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services<i
                       class="icon-angle-down"></i></a>
               <ul class="dropdown-menu">
                 <li><span class="list-circle"></span> <a href="facial.html">Facials & <br>Body Treatments</a></li>
@@ -130,7 +121,7 @@
                 &nbsp;Appointment</a>
             </li>
             <li class="active dropdown">
-              <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">About<i
+              <a id="about-link" href="about.html" class="dropdown-toggle" data-toggle="dropdown">About<i
                       class="icon-angle-down"></i></a>
               <ul class="dropdown-menu">
                 <li><span class="list-circle"></span> <a href="melissa.html">About Melissa</a></li>
