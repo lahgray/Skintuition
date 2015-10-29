@@ -2,6 +2,19 @@
 
 	'use strict'; //jshint :)
 
+  $(document).ready(function(event) {
+    $("#services-link").click(function(event) {
+      window.location=$("#services-link").attr("href");
+    });
+  });
+
+  $(document).ready(function(event) {
+    $("#about-link").click(function(event) {
+      window.location=$("#about-link").attr("href");
+    });
+  });
+
+
   //arrow animation
   
 
